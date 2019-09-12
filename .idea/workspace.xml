@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cb217d-55b0-443a-958c-91a9c62ab705" name="Default" comment="Explore nba_py functions.">
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/demo.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +16,7 @@
     <SUITE FILE_PATH="coverage/nba$test.coverage" NAME="test Coverage Results" MODIFIED="1550734928744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nba$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1550812142300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nbaStat$nba.coverage" NAME="nba Coverage Results" MODIFIED="1568018157274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/nbaStat$utils.coverage" NAME="utils Coverage Results" MODIFIED="1568282829315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,7 +38,19 @@
         <entry file="file://$PROJECT_DIR$/demo.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="3" />
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.7/site-packages/nba_py/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="171" column="37" lean-forward="true" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
+            <state relative-caret-position="108">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -55,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +79,8 @@
       <find>Mozilla</find>
       <find>User-Agent</find>
       <find>location</find>
+      <find>away</find>
+      <find>GROUP_</find>
       <find>home</find>
     </findStrings>
   </component>
@@ -75,11 +93,12 @@
         <option value="$PROJECT_DIR$/nba_parser.py" />
         <option value="$PROJECT_DIR$/demo.py.ipynb" />
         <option value="$USER_HOME$/anaconda3/envs/tf2/lib/python3.7/site-packages/nba_py/player.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/demo.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -99,12 +118,6 @@
             <path>
               <item name="nbaStat" type="b2602c69:ProjectViewProjectNode" />
               <item name="nbaStat" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nbaStat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nbaStat" type="462c0819:PsiDirectoryNode" />
-              <item name="nba_py" type="462c0819:PsiDirectoryNode" />
               <item name="nba_py" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -132,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.nba">
+  <component name="RunManager" selected="Python.utils">
     <configuration name="nba" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="nbaStat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,8 +208,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nbaStat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.utils" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
       </list>
@@ -225,7 +261,7 @@
       <workItem from="1568009362770" duration="90000" />
       <workItem from="1568010184502" duration="1421000" />
       <workItem from="1568011703660" duration="4664000" />
-      <workItem from="1568017972078" duration="32186000" />
+      <workItem from="1568017972078" duration="41915000" />
     </task>
     <task id="LOCAL-00001" summary="Explore nba_py functions.">
       <created>1568107435758</created>
@@ -238,10 +274,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45206000" />
+    <option name="totallyTimeSpent" value="54935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -303,16 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nba_py/nba_py/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.7/site-packages/nba_py/team.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -348,17 +375,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nba_py/nba_py/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.7/site-packages/nba_py/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="171" column="37" lean-forward="true" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
+        <state relative-caret-position="108">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="3" />
+          <selected id="5" />
         </state>
       </provider>
     </entry>
